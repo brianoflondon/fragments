@@ -101,3 +101,15 @@
             new_split.append(split/total * 100)
 
         return new_split
+
+   
+    # this is the code needed to write to the Hive blockchain, the line tx = is all.
+    def send_custom_json(self,data):
+        """ Send the data as a custom json from the server account """
+        #TODO: #9 Using experimental custom_json id p2h_exper_001 need to revisit.
+        server_account = current_app.config['HIVE_SERVER_ACCOUNT']
+        try:
+            tx = self.h.custom_json(id='p2h_exper_001',json_data=data,required_posting_auths=[server_account])
+        except Exception as ex:
+            return False, f'{ex.__class__} occurred'
+        return True, tx

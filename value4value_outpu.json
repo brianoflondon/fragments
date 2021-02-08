@@ -1,0 +1,86 @@
+From the Feeds:  
+{
+  "result": true,
+  "value": {
+    "@type": "HBD",
+    "@method": "transfer",
+    "@suggested": "0.05",
+    "podcast:valueRecipient": [
+      {
+        "@role": "host",
+        "@name": "Brian of London",
+        "@type": "account",
+        "@address": "brianoflondon",
+        "@split": "85"
+      },
+      {
+        "@role": "gateway",
+        "@type": "account",
+        "@address": "",
+        "@split": "15"
+      },
+      {
+        "@role": "app",
+        "@type": "account",
+        "@address": "",
+        "@split": "2"
+      }
+    ]
+  }
+}---------------
+
+Modified Splits: 
+{
+  "result": true,
+  "recipients": [
+    {
+      "role": "host",
+      "name": "Brian of London",
+      "address": "brianoflondon",
+      "split": 82.26390259953934
+    },
+    {
+      "role": "gateway",
+      "name": "pod2hive",
+      "address": "pod2hive",
+      "split": 14.517159282271647
+    },
+    {
+      "role": "app",
+      "name": "Learn to Code",
+      "address": "learn-to-code",
+      "split": 1.9356212376362192
+    },
+    {
+      "role": "index",
+      "name": "PodcastIndex.org",
+      "address": "podcastindex",
+      "split": 1.2833168805528135
+    }
+  ],
+  "roles": [
+    "host",
+    "gateway",
+    "app",
+    "index"
+  ],
+  "names": [
+    "Brian of London",
+    "pod2hive",
+    "Learn to Code",
+    "PodcastIndex.org"
+  ],
+  "addresses": [
+    "brianoflondon",
+    "pod2hive",
+    "learn-to-code",
+    "podcastindex"
+  ],
+  "splits": [
+    82.26390259953934,
+    14.517159282271647,
+    1.9356212376362192,
+    1.2833168805528135
+  ]
+}
+        

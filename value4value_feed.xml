@@ -1,0 +1,10 @@
+
+        <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+            <podcast:valueRecipient name="podcaster" type="node" address="036d33fbd386acc37577a6d72fea0e893e94a915139508d52a0395a930e1a6b613" split="95" />
+			      <podcast:valueRecipient name="podcastindex" type="node" address="036557ea56b3b86f08be31bcd2557cae8021b0e3a9413f0c0e52625c6696972e57" split="5" />
+        </podcast:value>
+        <podcast:value type="HBD" method="transfer" suggested="0.05">
+            <podcast:valueRecipient role="host" name="Brian of London" type="account" address="brianoflondon" split="85" />
+			      <podcast:valueRecipient role="gateway" type="account" address="" split="15" />
+            <podcast:valueRecipient role="app" type="account" address="" split="2" />
+        </podcast:value>
